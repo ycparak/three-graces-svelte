@@ -1,0 +1,19 @@
+@import 'functions';
+@import 'mixins';
+@import 'variables';
+@import 'reset';
+
+html,
+body {
+	background-color: var(--color-background);
+	font-family: var(--font-primary);
+	color: var(--color-text);
+	font-size: 16px;
+	line-height: 1.45;
+	height: 100%;
+}
+
+#root {
+	min-height: 100dvh;
+	height: 100%;
+}
